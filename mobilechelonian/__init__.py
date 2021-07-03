@@ -216,7 +216,7 @@ class Turtle(widgets.DOMWidget):
 
             t.home()
         '''
-        self.posX = 200
+        self.posX = 50
         self.posY = 200
         if 90 < self.bearing <=270:
             self.b_change = - (self.bearing - 90)

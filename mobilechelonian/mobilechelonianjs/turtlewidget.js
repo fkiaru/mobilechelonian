@@ -46,7 +46,7 @@ define(['nbextensions/mobilechelonianjs/paper', "@jupyter-widgets/base"], functi
         });
         
         // some variable to play with still
-        this.lineSize = 2;
+        this.lineSize = 20;
         this.rotateSpeed = 1;
         this.turtleColour ='#006900' ;
         this.turtleShow = 1;
@@ -321,8 +321,8 @@ define(['nbextensions/mobilechelonianjs/paper', "@jupyter-widgets/base"], functi
             
             var canvas = document.createElement('canvas');
             canvas.id     = "canvas1";
-            canvas.width  = 401;
-            canvas.height = 401;
+            canvas.width  = 601;
+            canvas.height = 601;
             canvas.resize;
 
             canvasDiv.append(canvas);
